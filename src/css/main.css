@@ -1,0 +1,66 @@
+body {
+	background: #121212;
+	margin: 15px;
+}
+
+td,
+th {
+	vertical-align: middle !important;
+	text-align: center !important;
+}
+
+table td:first-child,
+table td:first-child > div {
+	height: 150px;
+	width: 200px;
+}
+
+svg {
+	height: 100px;
+}
+
+* {
+	font-family: sans-serif;
+	font-size: 1.5rem;
+	color: #dadada;
+	text-transform: uppercase;
+}
+
+table tbody tr {
+	background: linear-gradient(
+		90deg,
+		rgba(35, 113, 175, 0.2) 0%,
+		rgba(90, 149, 195, 0.17) 7.08%,
+		rgba(137, 179, 212, 0.14) 14.17%,
+		rgba(176, 204, 227, 0.11) 21.23%,
+		rgba(207, 224, 238, 0.09) 28.17%,
+		rgba(229, 238, 246, 0.06) 34.93%,
+		rgba(242, 246, 250, 0.03) 41.46%,
+		rgba(246, 249, 252, 0.01) 47.48%,
+		rgba(240, 245, 250, 0.03) 53.12%,
+		rgba(224, 235, 244, 0.06) 60.46%,
+		rgba(197, 218, 234, 0.09) 68.74%,
+		rgba(160, 193, 221, 0.12) 77.69%,
+		rgba(112, 162, 203, 0.15) 87.21%,
+		rgba(54, 125, 182, 0.19) 97.04%,
+		rgba(35, 113, 175, 0.2) 100%
+	);
+	cursor: pointer;
+	transition: background 0.2s;
+	border: 0;
+}
+
+table.table-hover tbody tr:hover {
+	background-color: #232323;
+}
+
+button.btn-success {
+	width: 100%;
+	max-width: 200px;
+}
+
+.CENTER-ALIGN {
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
