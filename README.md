@@ -12,3 +12,9 @@ Steps to run-
   2. Type npm install (to install all the dependencies)
   3. Type npm run start to open webpack dev server or
   4. Type npm run build to create production build
+  
+  
+  
+## Application Snap
+![alt text](https://github.com/abhaynitrr/React-Redux-Starter-Application/blob/master/src/images/toolsnap.PNG)
+
